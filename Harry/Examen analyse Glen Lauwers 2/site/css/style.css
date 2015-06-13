@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: auto;
+	font-family: sans-serif;
+}
+.carousel-control.left, .carousel-control.right{
+	background-image: none;
+}
+
+.navbar-default{
+	background-color: white;
+	border: none;
+}
+
+.navbar-brand{
+	height: 110px;
+}
+
+.navbar-brand img{
+	height: 100px;
+	float: left;
+}
+
+.navbar-default .navbar-nav{
+	margin-top: 60px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: grey;
+	font-size: 20px;
+	margin-left: 20px;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s
+	transition 1s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	background-color: grey;
+	border-radius:5px;
+}
+
+.item img{
+	width: 100%;
+}
+
+.item h3{
+	text-align: center;
+}
+
+.item h3 a{
+	color: black;
+}
+
+.carousel-caption h3 a{
+	color: white;
+}
+
+.content{
+	width: 90%;
+	margin: auto;
+}
+
+.tekst{
+	padding-left: 0;
+}
+
+footer{
+	background-color: grey;
+}
+
+.link{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.link ul li a{
+	color: white;
+}
+
+.link ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+.link ul{
+	padding: 0;
+}
+
+.adres{
+	margin-top: 20px;
+	margin-bottom: 10px
+}
+
+.adres ul{
+	padding: 0;
+}
+
+.adres ul li{
+	list-style-type: none;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.kaart{
+	margin-top: 20px;
+}
+
+.link h4, .adres h4, .kaart h4{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.copy p{
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.syntra img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contact input{
+	width: 50%;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.contact textarea{
+	width: 100%;
+}
+
+#voorwaarde{
+	display: inline;
+	width: 25px;
+}
+
+.vlakken{
+	width: 100%;
+	margin: auto;
+}
+
+.vlakken p{
+	padding-left: 0px;
+}
+
+.vlakken h1{
+	margin-left: 10px;
+}
+
+.vlak_1, .vlak_2, .vlak_3{
+	padding: 0; 
+}
+
+.vlak_afbeelding {
+	width: 100%;
+	padding: 0 10px 0 0;
+}
+
+.vlak_1 h4, .vlak_2 h4, .vlak_3 h4{
+	font-size: 30px;
+}
+
+.logo{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 110px;
+	width: 200px;
+	display: block;
+}
